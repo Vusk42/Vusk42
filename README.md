@@ -2,6 +2,9 @@
 - 👀 I’m interested in Cyber Security and DCN
 - 🌱 I'm currently studying at 42Angouleme
 
+
+# Follow me on [Codeberg](https://codeberg.org/Vusk)
+
 <!---
 Vusk42/Vusk42 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
