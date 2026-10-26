@@ -50,13 +50,12 @@ int	main(void)
 	return (0);
 }
 ``` 
-
----
-
-### 🧠 About me
-
-- 💙 I **love the C language** and everything low-level
-
+```bash
+42:MyProfil$ ./profil
+My name is: Mathis RUDLOFF
+I am 30 years old
+I studied at: 42 Angoulême
+```
 ---
 
 ### 🛠️ Tech & Tools
