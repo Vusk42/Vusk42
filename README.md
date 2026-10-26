@@ -5,14 +5,52 @@
 <h1 align="center">👋 Hi, I'm Vusk</h1>
 
 <p align="center">
-  💙 In love with the C language &nbsp;•&nbsp; 🎓 Student at <a href="https://www.42angouleme.fr/">42 Angoulême</a>
-</p>
+```C
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   profil.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: marudlof <marudlof@42.angouleme.fr>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 1970/01/01 00:00:00 by unixstam          #+#    #+#             */
+/*   Updated: 2026/10/26 13:20:08 by marudlof         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-<p align="center">
-  <a href="https://codeberg.org/Vusk">
-    <img src="https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=codeberg&logoColor=white" alt="Codeberg"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=Vusk42&style=for-the-badge&color=blue" alt="Profile views"/>
+#include <libft.h>
+#include <ft_printf.h>
+#include <fractol.h>
+#include <minishell.h>
+#include <miniRT.h>
+
+typedef struct	s_profil
+{
+	char	*name;
+	char	*school;
+	int		age;
+}				t_profil;
+
+void	ft_print_profil(t_profil profil)
+{
+	ft_printf("My name is: %s\n", profil.name);
+	ft_printf("I am %d years old \n", profil.age);
+	ft_printf("I studied at: %s\n", profil.school);
+}
+
+int	main(void)
+{
+	t_profil	marudlof;
+
+	ft_bzero(&marudlof, sizeof(t_profil));
+	marudlof.name = "Mathis RUDLOFF";
+	marudlof.age = 30;
+	marudlof.school = "42 Angoulême";
+	ft_print_profil(marudlof);
+
+	return (0);
+}
+``` 
 </p>
 
 ---
@@ -20,9 +58,6 @@
 ### 🧠 About me
 
 - 💙 I **love the C language** and everything low-level
-- 🌱 Currently learning at **42 Angoulême**
-- 💬 Ask me about C, pointers and memory management
-- 🦊 Find more of my work on [Codeberg](https://codeberg.org/Vusk)
 
 ---
 
